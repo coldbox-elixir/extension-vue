@@ -1,15 +1,21 @@
 {
-  "name": "laravel-elixir-vue",
+  "name": "coldbox-elixir-vue",
   "version": "0.1.8",
-  "description": "Laravel Elixir Vue Integration",
+  "description": "ColdBox Elixir Vue Integration",
   "main": "main.js",
   "keywords": [
-    "laravel",
+    "coldbox",
     "elixir",
     "vue",
     "webpack"
   ],
   "author": "Jeffrey Way",
+  "contributors": [
+    {
+      "name": "Eric Peterson",
+      "email": "eric@elpete.com"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.9.0",

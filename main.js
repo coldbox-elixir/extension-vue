@@ -1,4 +1,4 @@
-var Elixir = require('laravel-elixir');
+var Elixir = require('coldbox-elixir');
 
 Elixir.ready(function() {
     Elixir.webpack.mergeConfig({
