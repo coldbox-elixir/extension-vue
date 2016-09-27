@@ -1,7 +1,12 @@
 {
   "name": "coldbox-elixir-vue",
-  "version": "0.1.8",
-  "description": "ColdBox Elixir Vue Integration",
+  "version": "1.0.0",
+  "description": "ColdBox Elixir Vue Extension",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/coldbox-elixir/extension-vue"
+  },
+  "homepage": "https://github.com/coldbox-elixir/extension-vue",
   "main": "main.js",
   "keywords": [
     "coldbox",
