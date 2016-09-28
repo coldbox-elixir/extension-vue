@@ -1,23 +1,21 @@
-# Laravel Elixir Vue Integration
+# ColdBox Elixir Vue Integration
 
-This package provides Webpack support for compiling `.vue` files in your Laravel Elixir 6 projects. Please note that, if using Laravel Elixir 5 or below, you don't want this package.
+This package provides Webpack support for compiling `.vue` files in your ColdBox Elixir 2 projects.
 
 ## Step 1: Install
 
 ```
-npm install laravel-elixir-vue --save-dev
+npm install coldbox-elixir-vue --save-dev
 ```
 
 ## Step 2: Gulpfile.js
 
 ```
-var elixir = require('laravel-elixir');
+var elixir = require( "coldbox-elixir" );
 
-require('laravel-elixir-vue');
+require( "coldbox-elixir-vue" );
 
-elixir(function(mix) {
-    mix.webpack('main.js'); // resources/assets/js/main.js
-});
+elixir( function( mix ) {
+    mix.webpack( "main.js" ); // resources/assets/js/main.js
+} );
 ```
-
-If you need help, [here's a barebones starter example](https://github.com/JeffreyWay/Laravel-Elixir-v6-Vue-example).
