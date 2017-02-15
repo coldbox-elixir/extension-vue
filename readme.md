@@ -2,6 +2,8 @@
 
 This package provides Webpack support for compiling `.vue` files in your ColdBox Elixir 2 projects.
 
+**Note:** if you are using VueJS 2.x, [you are actually looking for this extension.](https://github.com/coldbox-elixir/extension-vue-2)
+
 ### Step 1: Install
 
 ```
